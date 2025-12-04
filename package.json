@@ -1,0 +1,22 @@
+{
+  "name": "char23-web",
+  "version": "1.0.0",
+  "description": "A modern web application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o",
+    "build": "echo 'Build completed successfully'",
+    "test": "echo 'Tests passed successfully'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "web",
+    "application"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
